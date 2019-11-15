@@ -78,6 +78,13 @@ $resultado = $conn->query($sql);
             color:blue;
             font-size:15px;
         }
+        img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width:200px;
+            
+        }
     </style>
 </head>
 <body>
@@ -99,7 +106,8 @@ $resultado = $conn->query($sql);
     </div>
     <header><h1>Bloguezinho do Pudim</h1></header>
    
-    <main>  
+    <main>
+        <img src="img/pudim.png" alt="">
         <div>
            <?php include('criarlinha.php'); ?>
         </div>
